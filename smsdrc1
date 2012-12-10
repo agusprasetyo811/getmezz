@@ -1,0 +1,26 @@
+[gammu]
+# isikan no port di bawah ini
+port = com12:
+# isikan jenis connection di bawah ini
+connection = at115200
+
+[smsd]
+service = mysql
+logfile = smsdlog
+debuglevel = 0
+phoneid = omess_gaga
+commtimeout = 30
+sendtimeout = 30
+PIN = 1234
+
+# -----------------------------
+# Konfigurasi koneksi ke MySQL
+# -----------------------------
+pc = localhost
+
+# isikan user untuk akses ke MySQL
+user = root
+# isikan password user untuk akses ke MySQL
+password = 
+# isikan nama database untuk Gammu
+database = xxx

@@ -1,0 +1,3 @@
+[gammu]
+port = com12:
+connection = at115200
